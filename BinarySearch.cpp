@@ -51,36 +51,3 @@ void BubbleSortArray()
     } while (pass <= nPanjang - 1);
 }
 
-void display()
-{
-    cout << "\n====================================\n";
-    cout << " Elemen Array Setelah Diurutkan (asc) \n";
-    cout << "========================================";
-
-    for (int j = 0; j < nPanjang; j++)
-    {
-        cout << element[j];
-        if (j < nPanjang - 1)
-        {
-            cout << " -> ";
-        }
-    }
-    cout << endl;
-}
-
-void binarySearch()
-{
-    char ulang;
-    do
-    {
-        cout << "\n===============================\n";
-        cout << "    Pencarian Binary Search      \n";
-        cout << "===================================";
-
-        cout << "Masukkan elemen yang ingin dicari :";
-        cin >> x;
-
-        int low = 0;
-        int high = nPanjang - 1;
-
-       
